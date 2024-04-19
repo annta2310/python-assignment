@@ -1,12 +1,12 @@
 class Person:
-    def __init__(self,name):
+    def __init__(self,name):# Constructor method that initializes the name attribut
         self.name= name
 
 
-    def greet(self):
+    def greet(self):# Method that prints a greeting message
         print(f"Hello,{self.name}!")  
 
-    def login():
+    def login():  # Method that prompts the user to enter their username and password
         valid_username = "user"
         valid_password = "password"
 
