@@ -3,7 +3,7 @@ class Person:
     def __init__(self,age,gender):
         self.age = age
         self.gender = gender
-user = Person(18,"female")
+user = Person(14,"female")
 print (user.gender)  
 # cat identity :
 class Cat:
